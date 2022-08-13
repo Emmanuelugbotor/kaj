@@ -151,6 +151,7 @@ section.teams {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
 }
+
 .sidenav_site-navigation {
   display: none;
   @media screen and (max-width: 992px) {

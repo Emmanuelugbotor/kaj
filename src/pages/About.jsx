@@ -3,7 +3,7 @@ import MainLayout from "../layout/MainLayout";
 import DoneIcon from "@mui/icons-material/Done";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import abtImage from "../../src/assets/images/bg_2.jpg";
+import abtImage from "../../src/assets/images/abtBG.jpeg";
 
 export default function About() {
   return (
@@ -43,18 +43,15 @@ export default function About() {
                       really be the engine room of the society whilist they are
                       useful to themselves and contributing the social changes
                       and development to the society at large. At Kejibaus Youth
-                      Development Initiative (KYDI), our work include but are not
-                      limited to environmental, social, advocacy and human
+                      Development Initiative (KYDI), our work include but are
+                      not limited to environmental, social, advocacy and human
                       rights work.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="col-12 col-lg-6 order-1 order-lg-2">
-                <img
-                  src="images/xwelcome.jpg.pagespeed.ic.LXrOlcwqMA.jpg"
-                  alt="welcome"
-                />
+                <img src="images/abtBG.jpeg" alt="welcome" />
               </div>
             </div>
           </div>
@@ -101,10 +98,10 @@ export default function About() {
                     <p>
                       Since 2012, we have gained the support of people all
                       across the world and in particular, the United Nations.
-                      Kejibaus Youth Development Initiative (KYDI) was granted Special
-                      Consultative Status with the Economic and Social Council
-                      (ECOSOC) of the United Nations in 2012. After being
-                      nominated as an observer organization to the United
+                      Kejibaus Youth Development Initiative (KYDI) was granted
+                      Special Consultative Status with the Economic and Social
+                      Council (ECOSOC) of the United Nations in 2012. After
+                      being nominated as an observer organization to the United
                       Nations Framework Convention on Climate Change (UNFCCC)
                       2013 , our vision continues to be fulfilled.
                     </p>
@@ -112,10 +109,7 @@ export default function About() {
                 </div>
               </div>
               <div class="col-12 col-lg-6 order-1 order-lg-1">
-                <img
-                  src="images/xwelcome.jpg.pagespeed.ic.LXrOlcwqMA.jpg"
-                  alt="welcome"
-                />
+                <img src="images/abtBG.jpeg" alt="welcome" />
               </div>
             </div>
           </div>

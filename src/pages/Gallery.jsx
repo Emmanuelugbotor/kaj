@@ -1,6 +1,6 @@
 import React from "react";
 import MainLayout from "../layout/MainLayout";
-import abtImage from "../../src/assets/images/bg_2.jpg";
+import abtImage from "../../src/assets/images/abtBG.jpeg";
 
 export default function Gallery() {
   return (
@@ -33,11 +33,12 @@ export default function Gallery() {
                     <img src="images/gala-1.jpg" alt="" />
                   </a>
                   <h3 className="entry-title">
-                    <a href="#">Toys for Children Campaign</a>
+                    <a href="#">2017 commemoration of desertification day</a>
                   </h3>
-                  <h4>2018 Causes</h4>
+                  <h4>2017 Causes</h4>
                 </div>
               </div>
+
               <div className=" visible">
                 <div className="portfolio-cont">
                   <a href="#">
@@ -49,72 +50,50 @@ export default function Gallery() {
                   <h4>2018 Causes</h4>
                 </div>
               </div>
+
               <div className=" visible">
                 <div className="portfolio-cont">
                   <a href="#">
                     <img src="images/gala-3.jpg" alt="" />
                   </a>
                   <h3 className="entry-title">
-                    <a href="#">Water for Children AID</a>
+                    <a href="#"> Student wing of our organisation</a>
                   </h3>
-                  <h4>2018 Causes</h4>
+                  <h4>2017 Causes</h4>
                 </div>
               </div>
+
               <div className=" visible">
                 <div className="portfolio-cont">
                   <a href="#">
                     <img src="images/gala-4.jpg" alt="" />
                   </a>
                   <h3 className="entry-title">
-                    <a href="#">Water for Children AID</a>
+                    <a href="#">
+                      Sensitising people about the effects of Corona Virus
+                      (Covid-19) March 2020
+                    </a>
                   </h3>
-                  <h4>2018 Causes</h4>
+                  <h4>2020 Causes</h4>
                 </div>
               </div>
+
               <div className=" visible">
                 <div className="portfolio-cont">
                   <a href="#">
                     <img src="images/gala-5.jpg" alt="" />
                   </a>
                   <h3 className="entry-title">
-                    <a href="#">Toys for Children Campaign</a>
+                    <a href="#">
+                      {" "}
+                      Our team of delegation with Japanese Government
+                      representative deliberating on sustainability
+                    </a>
                   </h3>
                   <h4>2018 Causes</h4>
                 </div>
               </div>
-              <div className=" visible">
-                <div className="portfolio-cont">
-                  <a href="#">
-                    <img src="images/gala-6.jpg" alt="" />
-                  </a>
-                  <h3 className="entry-title">
-                    <a href="#">Toys for Children Campaign</a>
-                  </h3>
-                  <h4>2018 Causes</h4>
-                </div>
-              </div>
-              <div className=" visible">
-                <div className="portfolio-cont">
-                  <a href="#">
-                    <img src="images/gala-7.jpg" alt="" />
-                  </a>
-                  <h3 className="entry-title">
-                    <a href="#">Toys for Children Campaign</a>
-                  </h3>
-                  <h4>2018 Causes</h4>
-                </div>
-              </div>
-              <div className=" visible">
-                <div className="portfolio-cont">
-                  <a href="#">
-                    <img src="images/gala-8.jpg" alt="" />
-                  </a>
-                  <h3 className="entry-title">
-                    <a href="#">Water for Children AI</a>D
-                  </h3>
-                  <h4>2018 Causes</h4>
-                </div>
-              </div>
+
               <div className=" visible">
                 <div className="portfolio-cont">
                   <a href="#">
@@ -126,6 +105,7 @@ export default function Gallery() {
                   <h4>2018 Causes</h4>
                 </div>
               </div>
+
               <div className=" visible">
                 <div className="portfolio-cont">
                   <a href="#">
@@ -137,17 +117,23 @@ export default function Gallery() {
                   <h4>2018 Causes</h4>
                 </div>
               </div>
+
               <div className=" visible">
                 <div className="portfolio-cont">
                   <a href="#">
                     <img src="images/gala-11.jpg" alt="" />
                   </a>
                   <h3 className="entry-title">
-                    <a href="#">Toys for Children Campaign</a>
+                    <a href="#">
+                      {" "}
+                      Sensitising people about the effects of Corona Virus
+                      (Covid-19) March 2020
+                    </a>
                   </h3>
-                  <h4>2018 Causes</h4>
+                  <h4>2020 Causes</h4>
                 </div>
               </div>
+
               <div className=" visible">
                 <div className="portfolio-cont">
                   <a href="#">
@@ -159,6 +145,7 @@ export default function Gallery() {
                   <h4>2018 Causes</h4>
                 </div>
               </div>
+
               <div className=" visible">
                 <div className="portfolio-cont">
                   <a href="#">
@@ -167,9 +154,10 @@ export default function Gallery() {
                   <h3 className="entry-title">
                     <a href="#">Water for Children AID</a>
                   </h3>
-                  <h4>2018 Causes</h4>
+                  <h4>2017 Causes</h4>
                 </div>
               </div>
+
               <div className=" visible">
                 <div className="portfolio-cont">
                   <a href="#">
@@ -178,9 +166,10 @@ export default function Gallery() {
                   <h3 className="entry-title">
                     <a href="#">Toys for Children Campaign</a>
                   </h3>
-                  <h4>2018 Causes</h4>
+                  <h4>2017 Causes</h4>
                 </div>
               </div>
+
               <div className=" visible">
                 <div className="portfolio-cont">
                   <a href="#">
@@ -192,6 +181,7 @@ export default function Gallery() {
                   <h4>2018 Causes</h4>
                 </div>
               </div>
+
               <div className=" visible">
                 <div className="portfolio-cont">
                   <a href="#">

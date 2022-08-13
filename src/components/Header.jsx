@@ -38,7 +38,7 @@ export default function Header() {
           <div className="container">
             <div className="row">
               <div className="col-12 d-flex flex-wrap justify-content-between align-items-center container-pmx">
-                <div className="site-branding d-flex align-items-center">
+                <div className="site-branding d-flex align-items-center hide-m">
                   <Link
                     to="/"
                     className="d-block"
@@ -50,9 +50,24 @@ export default function Header() {
                       className="d-block"
                       src="images/logs.jpeg"
                       alt="logo"
-                      style={{  height: "100px" }}
+                      style={{ height: "100px" }}
                     />
-                  
+                  </Link>
+                </div>
+                <div className="site-branding d-flex align-items-center hide-d">
+                  <Link
+                    to="/"
+                    className="d-block"
+                    href="#"
+                    rel="home"
+                    style={{ width: "100px", height: "100px" }}
+                  >
+                    <img
+                      className="d-block"
+                      src="images/log.jpeg"
+                      alt="logo"
+                      style={{ height: "100px" }}
+                    />
                   </Link>
                 </div>
                 <nav className="site-navigation d-flex justify-content-end align-items-center">
@@ -68,6 +83,9 @@ export default function Header() {
                     </li>
                     <li>
                       <Link to="/gallery">Gallery</Link>
+                    </li>
+                    <li>
+                      <Link to="/partners">Partners</Link>
                     </li>
                     <li>
                       <Link to="/teams">Our Team</Link>

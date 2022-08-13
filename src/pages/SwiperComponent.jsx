@@ -33,16 +33,13 @@ export default function SwiperComponent() {
           >
             <SwiperSlide>
               <div className="swiper-slide hero-content-wrap">
-                <img
-                  src="images/kj3.jpeg"
-                  alt=""
-                />
+                <img src="images/kj3.jpeg" alt="" />
                 <div className="hero-content-overlay position-absolute w-100 h-100">
                   <div className="container h-100">
                     <div className="row h-100">
                       <div className="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
                         <header className="entry-header">
-                          <h1>Donate</h1>
+                          {/* <h1>Donate</h1> */}
                           <h4>Children's Development</h4>
                         </header>
                         <div className="entry-content mt-4">
@@ -64,17 +61,14 @@ export default function SwiperComponent() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="swiper-slide hero-content-wrap">
-                <img
-                  src="images/kj2.jpeg"
-                  alt=""
-                />
+                <img src="images/kj2.jpeg" alt="" />
 
                 <div className="hero-content-overlay position-absolute w-100 h-100">
                   <div className="container h-100">
                     <div className="row h-100">
                       <div className="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
                         <header className="entry-header">
-                          <h1>Donate</h1>
+                          {/* <h1>Donate</h1> */}
                           <h4>Environmental Issues</h4>
                         </header>
                         <div className="entry-content mt-4">
@@ -100,16 +94,13 @@ export default function SwiperComponent() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="swiper-slide hero-content-wrap">
-                <img
-                  src="images/kj1.jpeg"
-                  alt=""
-                />
+                <img src="images/kj1.jpeg" alt="" />
                 <div className="hero-content-overlay position-absolute w-100 h-100">
                   <div className="container h-100">
                     <div className="row h-100">
                       <div className="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
                         <header className="entry-header">
-                          <h1>Donate</h1>
+                          {/* <h1>Donate</h1> */}
                           <h4> Health and Education </h4>
                         </header>
                         <div className="entry-content mt-4">

@@ -5,6 +5,9 @@ import MailIcon from "@mui/icons-material/Mail";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import { Link } from "react-router-dom";
+import { WhatsApp } from "@mui/icons-material";
+
 export default function Footer() {
   return (
     <footer class="site-footer">
@@ -21,7 +24,7 @@ export default function Footer() {
                   >
                     <img
                       style={{ width: "100%", height: "100%" }}
-                      src="images/log.jpeg"
+                      src="images/loger.jpeg"
                       alt=""
                     />
                   </a>
@@ -35,17 +38,23 @@ export default function Footer() {
                 </p>
                 <ul class="d-flex flex-wrap align-items-center">
                   <li>
-                    <a href="#">
+                    <a
+                      href="https://www.facebook.com/Kejibaus"
+                      target={"_blank"}
+                    >
                       <FacebookIcon />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
-                      <TwitterIcon />
+                    <a href="https://wa.me/2348094396178" target={"_blank"}>
+                      <WhatsApp />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a
+                      href="https://www.linkedin.com/in/kejibaus-youth-development-initiative-48ba18240"
+                      target="_blank"
+                    >
                       <LinkedInIcon />
                     </a>
                   </li>
@@ -56,19 +65,23 @@ export default function Footer() {
               <h2>Useful Links</h2>
               <ul>
                 <li>
-                  <a href="#">Privacy Polticy</a>
+                  <Link to="/about">About us</Link>
                 </li>
                 <li>
-                  <a href="#">Donate</a>
+                  <a href="/#our-causes">Causes</a>
                 </li>
                 <li>
-                  <a href="#">Causes</a>
+                  <Link to="/gallery">Gallery</Link>
                 </li>
                 <li>
-                  <a href="#">Team</a>
+                  <Link to="/partners">Partners</Link>
                 </li>
                 <li>
-                  <a href="#">Gallery</a>
+                  <Link to="/teams">Our Team</Link>
+                </li>
+
+                <li>
+                  <a href="/#Contact">Contact</a>
                 </li>
               </ul>
             </div>
